@@ -1,0 +1,21 @@
+footer{
+    background-color: #010101;
+}
+
+.footer-itens{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 8% 24px 8%;
+    align-items: center;
+}
+.copyright{
+    color: #f1f1f1;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.social-midia-buttons i{
+    color: #f1f1f1;
+    cursor: pointer;
+    font-size: 30px;
+}
