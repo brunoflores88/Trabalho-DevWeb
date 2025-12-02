@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="Catálogo.css">
+    <link rel="stylesheet" href="carrinho.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+        <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-shirt">Camisas</i>
+            <ul id="nav_list">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Finalizar</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Avaliações</a>
+                </li>
+                <button class="btn-default">
+                    Peça Aqui
+                </button>
+            </ul>
+        </nav>   
+    </header>
+
+  
+ <div class="menu-container">
+        <img src="menu.svg" alt="Menu" class="menu-icon" id="menuToggle">
+        
+        <ul class="menu" id="sideMenu">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Brasileirão</a></li>
+            <li><a href="#">Liga Argentina</a></li>
+            <li><a href="#">La Liga</a></li>
+            <li><a href="#">Ligue 1</a></li>
+            <li><a href="#">Premier League</a></li>
+            <li><a href="#">Seleções</a></li>
+            <li><a href="#">Lançamento</a></li>
+        </ul>
+    </div>
+
+    <a href="home.html">
+        <img src="" alt="">
+    </a>
+
+    </section>
+
+    <script>
+        const menuIcon = document.getElementById('menuToggle');
+        const sideMenu = document.getElementById('sideMenu');
+
+        menuIcon.addEventListener('click', () => {
+            sideMenu.classList.toggle('active');
+        });
+    </script>
+<main class="content">
+        <section class="home">
+            <div class="cta">
+                <h1 class="title">
+                    Camisas tailandesa as melhores do mercado <span>você</span>
+                </h1>
+                <p class="descricao">
+                    
+                </p>
+                <div class="cta-buttons">
+                    <a href="" class="btn_default">Catálogo</a>
+                    <a href="" class="phone-button">
+                        <button class="btn_default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (67) 992183705
+                    </a>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="pngwing.com (2).png" alt="Imagem Principal da Loja">
+            </div>  
+        </section>
+    </main>
+    <section class="Camisa">
+        <h2 class="section-title"></h2>
+        <h3 class="section-subtitle">Camisa de times</h3>
+        <div class="area-cards">
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="imagem/download.jpg" alt=" camisa do real ="card-imagem">
+                <h3 class="card-title"> Camisa Real Madrid Adidas II 2023 2024</h3>
+                <span class="card-descricao">
+                    
+                </span>
+                <div class="card-rate">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="card-price">
+                    <h4>R$150,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="imagem/liverpool.jpg" alt="camisa do Liverpool" class="card-imagem">
+                <h3 class="card-title">Camisa Adidas Liverpool I 25/26</h3>
+                <span class="card-descricao">
+                    
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$190,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="imagem/camisa-barcelona-retro-2014-2015-i-home-1-nike1-8dcf3cff00b50b687d16835998621990-640-0.webp" alt="camisa do Barcelona" class="card-imagem">
+                <h3 class="card-title">Camisa Barcelona 14/15 I Home Retro </h3>
+                <span class="card-descricao">
+                    
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>()</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$150,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="imagem/camisa-inter-de-milao-2024-2025-nike-torcedor-home-i-1-azul-preto-champions-league-lautaro-martinez-1-601da4ddd788ef87b817311839959941-1024-1024.png" alt="camisa do Inter " class="card-imagem">
+                <h3 class="card-title">Camisa Inter de Milão I 2024/2025</h3>
+                <span class="card-descricao">
+                   
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$200,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="imagem/city-branca-patch-595f683aebb6b7ded017058971135056-480-0.png" alt="Camisa do City" class="card-imagem">
+                <h3 class="card-title">Camisa Manchester City II 23/24 Branca</h3>
+                <span class="card-descricao">
+                 
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$130,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="imagem/Chelsea 2013 - 2014 1.png" alt="Camisa do Chelsea" class="card-imagem">
+                <h3 class="card-title">Camisas Chelsea 2013 / 2014 - Home, Away e Third
+Home</h3>
+                <span class="card-descricao">
+                    
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$115,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="imagem/arsenaltesteknd1.png" alt="camisa do Arsenal" class="card-imagem">
+                <h3 class="card-title">Camisa Adidas Arsenal I 25/2026</h3>
+                <span class="card-descricao">
+                        
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$125,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="imagem/camis-atletico-madrid-jersey-1-home-i-branca-e-vermelha-retro-fan-torcedor-2013-2014-nike-7b941d74c684a7e87517042031923970-640-0.webp" alt="camisa do Atlético" class="card-imagem">
+                <h3 class="card-title">Camisa Atlético de Madrid Retro 2013/14 Branca e Vermelha </h3>
+                <span class="card-descricao">
+                  
+                </span>
+                <div class="card-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+                <div class="card-price">
+                    <h4>R$100,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <footer>
+        <div class="footer-itens">
+            <span class="copyright">
+                &copy 2025 Bruno
+            </span>
+            <div class="social-midia-buttons">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="><i class="fa-brands fa-linkedin"target="_blank"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
