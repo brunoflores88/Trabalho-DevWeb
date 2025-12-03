@@ -1,6 +1,6 @@
 <?php
     // Conecta à classe Usuario
-    require 'Classes/usuario.php';
+    require 'usuario.php';
     $u = new Usuario();
 ?>
 
